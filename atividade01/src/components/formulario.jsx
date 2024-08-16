@@ -17,7 +17,7 @@ const Formulario = () => {
                     <br />
                     <span>Senha:</span>
                     <br />
-                    <input type="password" name="" className='senha' id="" placeholder='12345678900' />
+                    <input type="password" name="" className='senha ' id="" placeholder='12345678900' />
                 </div>
 
                 <div className="send">

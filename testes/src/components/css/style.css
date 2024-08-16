@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(75, 172, 252);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bars {
+    font-size: 25px;
+    color: #FFF;
+    margin-left: 10px;    
+}
+
+.bars:hover {
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;    
+    margin-right: 50px;    
+    width: fit-content;
+}
+
+.links a {
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.links a:hover {
+    background-color: #c4c4c4;
+    color: #000;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.icon-center {
+    font-size: 90px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.chatbar {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(75, 172, 252);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    gap: 20px;
+    bottom: 0;
+}
+
+.chatbar input {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 550px;
+}
+
+.chatbar button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.chatbar button:hover {
+    cursor: pointer;
+    background-color: #9b9b9b;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.sidebar {   
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 300px;
+    padding: 20px;
+    height: 100%;
+    background-color: #FFF;
+    /*border-right: 1px solid gray;*/
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar-header .times {
+    font-size: 30px;
+}
+
+.sidebar-header .times:hover {
+    cursor: pointer;
+}
