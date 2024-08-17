@@ -5,8 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
 
     const handleClick = () => {
-        document.getElementById('sidebar').style.display = 'block';
-        //document.getElementById('sidebar').style.display = 'flex';
+        document.getElementById('sidebar').style.display = 'block';        
     }
 
     return (
