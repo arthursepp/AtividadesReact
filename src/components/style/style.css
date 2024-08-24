@@ -1,0 +1,73 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: fit-content;
+    height: fit-content;
+    background-color: blueviolet;
+    padding: 10px;
+    color: #FFF;
+    display: flex;
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */    
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    top: 50px; /* Ajuste conforme necessário para evitar sobreposição com o header */
+    width: 200px;
+    height: 100%;
+    background-color: lightgray;    
+    padding: 20px;
+    z-index: 999; /* Garante que a sidebar fique acima de outros elementos */    
+}
+
+.main {
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 240px; /* Espaço para a sidebar esquerda fixa */    
+    margin-right: 240px;        
+    padding: 20px;
+    background-color: orange;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.aside {
+    position: fixed;
+    right: 0;
+    top: 50px; /* Ajuste conforme necessário para evitar sobreposição com o header */    
+    width: 200px;
+    height: 100%;
+    background-color: lightgray;
+    padding: 20px;
+    z-index: 999; /* Garante que a sidebar fique acima de outros elementos */    
+}
+
+.footer {    
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        max-height: fit-content;
+        height: fit-content;
+        background-color: blueviolet;
+        padding: 10px;
+        color: #FFF;
+        display: flex;
+        z-index: 1000; /* Garante que a navbar fique acima de outros elementos */               
+}
+
+.main .footer {  
+    position: absolute;      
+    top: 450px;    
+    width: 95%;
+    right: auto;
+    
+}
+
+.main .aside {
+    height: 20%;       
+    top: 250px;
+    right: 10px;    
+    position: absolute;
+}
